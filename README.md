@@ -1,4 +1,4 @@
-# Automatic Text-To-Speech
+# Automatic Bulk Text-To-Speech from .txt files
 
 This repository contains a text-to-speech pipeline that scrapes text from a webpage, preprocesses it, converts it into speech using OpenAI's text-to-speech API, and subsequently combines the audio files if necessary. It is designed to work with efficiency by distributing tasks across multiple threads for speed.
 
