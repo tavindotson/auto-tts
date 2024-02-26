@@ -6,3 +6,4 @@ backup/
 .gitignore
 docker-compose.yml
 env.template
+COPYING
