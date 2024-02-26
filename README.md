@@ -57,11 +57,3 @@ If you already have python and pip installed, it might be quicker to just follow
 **_4_combine.py**: Combines all the split audio files and stores them in '/files/audio/combined'.
 
 It is built using Python and leverages various libraries such as BeautifulSoup for web scraping, os and shutil for file manipulation, and OpenAI's library for text-to-speech conversion. It can be launched through docker compose.
-
-## Contributing
-
-TBD
-
-## License
-
-TBD
