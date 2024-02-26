@@ -4,7 +4,13 @@ This repository contains a text-to-speech pipeline that scrapes text from a webp
 
 ## Setup Instructions
 
-### Docker
+### With Python
+
+**Requirements: [Python](https://www.python.org/downloads/), [OpenAI API KEY](https://openai.com/blog/openai-api)**
+
+If you already have python and pip installed, it might be quicker to just follow steps 1+2 below, run `pip install -r requirements.txt`, skip steps 3+4, follow steps 6+7.
+
+### With Docker
 
 **Requirements: [Docker](https://docs.docker.com/get-docker/), [OpenAI API KEY](https://openai.com/blog/openai-api)**
 
@@ -39,11 +45,6 @@ This repository contains a text-to-speech pipeline that scrapes text from a webp
  7. The finished MP3s will be in /files/audio/combined
 
 		cd /files/audio/combined
-
-
-### Local
-
-If you already have python and pip installed, it might be quicker to just follow steps 1+2 above, run `pip install -r requirements.txt`, skip steps 3+4, follow steps 6+7.
 
 ## Overview of Each Script
 
