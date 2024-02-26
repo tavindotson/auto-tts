@@ -26,7 +26,7 @@ This repository contains a text-to-speech pipeline that scrapes text from a webp
 
  6. Run the scripts one at a time, in order inside the container
 
-		python _1_scrape.py
+		python _1_scrape.py # or run `mkdir files` and place your own .txt files in there
 
 		python _2_prep_text_files.py
 
