@@ -6,19 +6,37 @@ This repository contains a text-to-speech pipeline that scrapes text from a webp
 
 **Requirements: [Docker](https://docs.docker.com/get-docker/), [OpenAI API KEY](https://openai.com/blog/openai-api)**
 
- 1. Clone this repository with `git clone https://github.com/tavindotson/auto-tts.git` then `cd auto-tts`
- 2. Create a '.env' file from the provided 'env.template' and update it with your OpenAI API KEY,
-		Linux: `cp env.template .env ; nano .env`
+ 1. Clone this repository
+
+		git clone https://github.com/tavindotson/auto-tts.git
+		cd auto-tts
+
+ 2. Create a '.env' file from the provided 'env.template' and update it with your OpenAI API Key
+
+		cp env.template .env
+		nano .env
+
  3. Start with docker-compose.
-		`docker compose up -d`
+
+		docker compose up -d
+
  4. Open a shell into the container
-		`docker exec -it auto-tts sh`
- 6. Run the scripts in order inside the container
-		`python _1_scrape.py`
-		`python _2_prep_text_files.py`
-		`python _3_TTS.py`
-		`python _4_combine.py`
- 7. The finished MP3s will be in `/files/audio/combined`
+
+		docker exec -it auto-tts sh
+
+ 6. Run the scripts one at a time, in order inside the container
+
+		python _1_scrape.py
+
+		python _2_prep_text_files.py
+
+		python _3_TTS.py
+
+		python _4_combine.py
+
+ 7. The finished MP3s will be in /files/audio/combined
+
+		cd /files/audio/combined
 
 ## Overview of Each Script
 
