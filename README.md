@@ -43,7 +43,7 @@ This repository contains a text-to-speech pipeline that scrapes text from a webp
 
 ### Local
 
-If you already have python and pip installed, it might be quicker to just follow steps 1+2 above, run `pip install -r requirements`, skip steps 3+4, follow steps 6+7.
+If you already have python and pip installed, it might be quicker to just follow steps 1+2 above, run `pip install -r requirements.txt`, skip steps 3+4, follow steps 6+7.
 
 ## Overview of Each Script
 
