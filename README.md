@@ -18,14 +18,14 @@ It is built using Python and leverages various libraries such as BeautifulSoup f
 
 **Requirements: Docker, OpenAI API KEY**
 
- 1. Clone this repository with `git clone (repository)` then `cd auto-tts`
+ 1. Clone this repository with `git clone https://github.com/tavindotson/auto-tts.git` then `cd auto-tts`
  2. Create a '.env' file from the provided 'env.template' and update it with your OpenAI API KEY,
 		Linux: `cp env.template .env ; nano .env`
  3. Start with docker-compose.
 		`docker compose up -d`
  4. Open a shell into the container
 		`docker exec -it auto-tts sh`
- 6. Run the scripts in order
+ 6. Run the scripts in order inside the container
 		`python _1_scrape.py`
 		`python _2_prep_text_files.py`
 		`python _3_TTS.py`
