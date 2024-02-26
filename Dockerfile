@@ -2,7 +2,6 @@ FROM python:alpine
 
 WORKDIR /app
 
-COPY ./requirements.txt .
 COPY . /app
 
 RUN apk update
