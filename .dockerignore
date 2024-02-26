@@ -1,0 +1,9 @@
+**/.env
+**/*.mp3
+**/.DS_Store
+**/*.txt
+
+backup/
+.gitignore
+docker-compose.yml
+env.template

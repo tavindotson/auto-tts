@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  vttf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: auto-tts
+    hostname: auto-tts
+    volumes:
+      - ./files:/app/files
+      - ./.env:/app/.env:ro
